@@ -1,4 +1,6 @@
-# Tracify Landing Page
+# Tracify – Landing Page (Full-Stack)
+
+A production-ready, full-stack landing page for Tracify, featuring a modern glassmorphism UI, secure user onboarding, and restricted APK access based on registration status.
 
 A production-ready landing page for Tracify, featuring a glassmorphism UI, user registration, and secure credential creation.
 
@@ -61,3 +63,7 @@ A production-ready landing page for Tracify, featuring a glassmorphism UI, user 
 - **Credentials**: Secure password creation (hashed).
 - **Downloads**: ATS APK is locked until registration is complete.
 - **Profile**: View user details and download status.
+
+## Contact
+- **Developer**: Ankit Kumar
+- **GitHub**: https://github.com/Ankitkumarthakur0
