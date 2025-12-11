@@ -15,14 +15,6 @@ A modern, production-ready landing page built with a glassmorphism UI, secure cr
 
 ---
 
-## Landing Page Preview
-
-<p align="center">
-  <img src="Tracifylandingpage/assets/landing.png" alt="Tracify Landing Page" width="800">
-</p>
-
----
-
 ## Tech Stack (Landing Page)
 
 ### **Frontend**
@@ -38,133 +30,117 @@ A modern, production-ready landing page built with a glassmorphism UI, secure cr
 
 ---
 
-## Backend Setup
+## **Backend Setup**
 
-```bash
 cd Tracifylandingpage/server
 npm install
 
 **Create .env**:
 
-ini
-Copy code
 MONGO_URI=mongodb://localhost:27017/tracify
 PORT=5000
-Run backend:
 
-bash
-Copy code
+**Run backend**:
 node server.js
-🎨 Frontend Setup
-bash
-Copy code
+
+Backend URL: http://localhost:5000
+
+---
+
+## **Frontend Setup**
+
 cd Tracifylandingpage/client
 npm install
 npm run dev
-Frontend will run on:
 
-arduino
-Copy code
-http://localhost:5173
-Landing Page Features
-Secure user registration
+Frontend URL: http://localhost:5173 
 
-Live photo capture
+----
 
-Encrypted password creation
+**Landing Page Features**
 
-User profile with status
+-Secure user registration
 
-Protected ATS APK download (only after successful registration)
+-Live photo capture
 
-📱 2. Tracify Dashboard (Android App)
-An Android dashboard app for registered Tracify users.
-APK not included — only the app source code.
+-Encrypted password creation
 
-📸 Dashboard App Preview
-<p align="center"> <img src="TracifyDashboard/assets/dashboard.png" alt="Tracify Dashboard App" width="800"> </p>
-Replace dashboard.png with your actual app screenshot inside:
-TracifyDashboard/assets/
+-Backend validation
 
-🛠 Tech Stack (Android App)
-Java / Kotlin
+-User profile
 
-Android SDK
+-Restricted ATS APK download (after registration only)
 
-XML UI
+---
 
-Gradle Build System
+## ** 2. Tracify Dashboard (Android App)**
 
-⚙️ Build Instructions
-Open project in Android Studio:
+-An Android dashboard application for registered Tracify users.
 
-mathematica
-Copy code
-File → Open → TracifyDashboard/
+-APK is not included here — only the source code.
+
+---
+
+##**Tech Stack (Android App)**
+
+-Java / Kotlin
+
+-Android SDK
+
+-XML UI
+
+-Gradle Build System
+
+---
+
+##**Build Instructions**
+
+Open in Android Studio:
+File --> Open -->TracifyDashboard/
+
 Build:
-
-mathematica
-Copy code
 Build → Make Project
+
+Run:
 Run → Run App
-🧩 Repository Structure
-css
-Copy code
+
+---
+
+##**Repository Structure**
+
 tracify-public/
 │
 ├── Tracifylandingpage/
-│     ├── client/   → React frontend
-│     └── server/   → Node.js backend
+│ ├── client/ → React frontend
+│ └── server/ → Node.js backend
 │
 └── TracifyDashboard/ → Android App Source Code
-      ├── app/
-      └── gradle/
-🚀 Deployment Guide
-Backend Deployment
-Platforms:
+├── app/
+└── gradle/
+---
 
-Render
+**Build**:
 
-Railway
+-npm run build
 
-AWS / VPS
+-Deploy dist/ folder.
 
-Any Node hosting
+-Security Notes
 
-Set env variable:
+-ATS APK is not included publicly
 
-ini
-Copy code
-MONGO_URI=<your-database-url>
-Frontend Deployment
-Recommended:
+-APK download allowed only for verified users
 
-Vercel
+-All passwords hashed with bcrypt
 
-Netlify
+-Backend authorization required
 
-Cloudflare Pages
+**Contribution**
 
-Build frontend:
-
-bash
-Copy code
-npm run build
-Deploy the dist/ folder.
-
-🔒 Security Notes
-ATS APK is not included in this public repo
-
-APK download allowed only for verified users
-
-All passwords are hashed using bcrypt
-
-Backend validates user identity before access
-
-🤝 Contribution
 Pull requests are welcome.
-For major changes, open an issue to discuss ideas.
+For major changes, open an issue first.
 
-👨‍💻 Author
+**Author**
+
 Ankit Kumar
 GitHub: https://github.com/Ankitkumarthakur0
